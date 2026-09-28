@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.card__image {
+  width: 100%;
+}
+
+@media (min-width: 577px) {
+  .card {
+    flex-direction: row;
+    width: 800px;
+    padding: 40px;
+  }
+
+  .card__image {
+    width: 50%;
+  }
+}
